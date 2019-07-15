@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="通知"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/talk"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="校园卡通知"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-29dp"
+        android:text="暂无通知"
+        android:textSize="18dp"
+        android:textColor="#66111111"/>
+
+<ImageView
+        android:id="@+id/image2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/group"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="学校通知"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-29dp"
+        android:text="暂无通知"
+        android:textSize="18dp"
+        android:textColor="#66111111"/>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/conversation"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="应用通知"
+        android:textSize="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/tv3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-29dp"
+        android:text="暂无通知"
+        android:textSize="18dp"
+        android:textColor="#66111111"/>
+
+</RelativeLayout>

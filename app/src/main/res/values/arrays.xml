@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intype">
+        <item>就餐只能用校园卡不属拒收现金</item>
+        <item>穷则不点奶茶</item>
+        <item>冰镇麻辣烫</item>
+        <item>带樱花眉的柴犬</item>
+        <item>爱因斯坦广义相对论仍成立</item>
+    </string-array>
+</resources>
